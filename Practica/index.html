@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Universidad Udey</h1>
+        <h3>Ingreso</h3>
+        <form id="formulario">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="nombre">
+
+            <label for="edge">Edad</label>
+            <input type="number" name="edge" min= 18 max=90 id="edge">
+
+            <label for="date">Fecha de Nacimiento</label>
+            <input type="date" name="date" id="date">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+            <label for="cel">Celular</label>
+            <input type="cel" name="cel" id="cel">
+
+            <label for="" id="carreralabel">Carrera a elegir:</label>
+            <select name="carrera" id="carrera">Carrera
+                <option value="Lic. Economia">Lic. Economia</option>
+                <option value="Lic. Biologia">Lic. Biologia</option>
+                <option value="Lic. Filosofia">Lic. Filosofia</option>
+                <option value="Lic. Antropologia">Lic. Antropologia</option>
+                <option value="Lic. Sistemas">Lic. Sistemas</option>
+            </select>
+
+            <label for="" id="horariolabel">Horario de preferencia</label>
+            <select name="" id="horario">
+                <option value="Mañana">Mañana</option>
+                <option value="Tarde">Tarde</option>
+                <option value="Noche">Noche</option>
+            </select>
+
+            <input type="submit" value="Enviar" id="button">
+            <ul id="list"></ul>
+
+        </form>
+        <footer>
+            <section>
+                <p>Datos de contactos</p>
+                <p>Tel de administracion: 51651651651</p> 
+                <p>Mail: uniudey@gmail.com</p>
+            </section>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
